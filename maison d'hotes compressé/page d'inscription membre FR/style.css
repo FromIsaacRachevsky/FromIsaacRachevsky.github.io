@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  font-family: Arial,Helvetica,sans-serif;
+  font: 13px;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+#languagesEN {
+  float: right;
+}
+#type_escort h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ******************* Navbar *************** */
+nav {
+  /* border-top: 5px solid black; */
+  overflow: hidden;
+  background-color: pink;
+  /* position: fixed; */
+  width: 100%;
+  /* opacity: 0.9; */
+}
+
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+
+section div h1 {
+  float: right;
+}
+#logo {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  float: left;
+}
+
+/* *********** Page Container *********** */
+
+/* ************ Image Principale ************ */
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media/nos\ modèles\ image.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 5px 11px 2px black;
+  background-color: black;
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 2px black;
+}
+h2 {
+  background-color: black;
+  color: white;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 1px black;
+}
+p {
+  background-color: black;
+  color: white;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+#signup #type_escort ul li {
+  background-color: black;
+  color: white;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+/* ********* fieldsset ********* */
+
+#register {
+  margin-right: -20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+  right: -260px;
+  background-color: black;
+  -webkit-box-align: center;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+}
+
+fieldset {
+  border: 1px solid #69f;
+  padding: 10px;
+  margin: 10px 10px 0;
+  width: 50%;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+}
+
+fieldset legend {
+  background: #fff;
+    border-color: #69f;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    color: #214466;
+    font-weight: 700;
+    padding: 3px 12px;
+
+}
+
+.legend1
+
+/* ********* form ********** */
+
+form .err, form .err_msg {
+  margin-left: 205px;
+  color: red;
+  font-weight: 700
+}
+
+form br {
+  clear: left;
+}
+
+/* ********* box identifiant ******* */
+
+
+#register .frmline>label:first-child {
+  margin-right: 15px;
+}
+
+.frmline {
+  position: relative;
+  width: 600px;
+  padding: 10px 0;
+}
+
+.frmline .err_msg {
+  position: absolute;
+  left: 369px;
+  top: 5px;
+  width: 320px;
+  padding-left: 10px;
+  background: url(../img/arrow.png) no-repeat 3px -12px transparent;
+}
+
+.frmline label {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 3px 4px;
+}
+
+.frmline input {
+  width: 350px;
+  padding: 4px;
+  margin: 0;
+}
+
+.genform input, .genform textarea {
+  padding: 4px;
+  border-radius: 2px;
+  font-family: Arial,Helvetica,sans-serif;
+  margin: 15px 0 0 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #757575 #d4d4d4 #d4d4d4 #757575;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+.genform label {
+  display: block;
+  float: left;
+  padding: none;
+  margin: 15px 15px 0 0;
+  text-align: right;
+  width: 200px;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+input {
+  writing-mode: horizontal-tb !important;
+  font-style: none;
+  font-variant-ligatures: none;
+  font-variant-caps: none;
+  font-variant-numeric: none;
+  font-variant-east-asian: none;
+  font-weight: none;
+  font-stretch: none;
+  font-size: none;
+  font-family: none;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  /*text-align: start*/
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: field;
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  
+}
+
+#accept {
+  margin: -166px;
+  cursor: pointer;
+
+}
+
+/* ******* Checkbox ******** */
+
+.mcf-fake-checkbox {
+  border-radius: 5px;
+  border: 1px solid #999;
+  background-image: -moz-linear-gradient(90deg,#c8c8c8 0,#fff 100%);
+  background-image: -webkit-linear-gradient(90deg,#c8c8c8 0,#fff 100%);
+  background-image: -ms-linear-gradient(90deg,#c8c8c8 0,#fff 100%);
+  width: 16px;
+  height: 16px;
+}
+
+.mcf-fake-checkbox:hover, .mcf-fake-radio:hover, .mcf-fake-select-selector:hover {
+  cursor: pointer;
+}
+
+.mcf-fake-checkbox, .mcf-fake-radio {
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.mcf-fake-checkbox.active:before {
+  content: "";
+  width: 15px;
+  height: 16px;
+  position: relative;
+  display: block;
+  background: url(../img/forms_sprite.png) -59px -298px;
+}
+
+#register .accept-tos {
+  margin-top: 22px;
+}
+
+
+label {
+  cursor: default;
+}
+
+/* *********** error msg ******** */
+
+.frmline .err_msg span {
+  border-color: #ffddb0;
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  background-color: #feffdb;
+  padding: 5px 10px;
+  display: block;
+  border-radius: 0 5px 5px 0;
+}
+
+/* ****** button **** */
+/* ****** base-button approve-default ******  */
+
+.base-button {
+  color: black;
+  background-color: pink;
+  cursor: pointer;
+  border-color: black;
+
+}
+
+/* ****** Accept *****/
+
+
+
+
+/* *********** footer ********* */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+#contact form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input,
+textarea,
+button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: "Advent Pro" sans-serif;
+  border-radius: 8px;
+ 
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: purple;
+  color: white;
+  align-self: center;
+}
+button:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 150px;
+}
+#deuxièmeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: white;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: white;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: white;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+
+.createAccount .formWrapper {
+    float: right;
+    border: 1px solid #333;
+    background: rgba(0,0,0,.9);
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 2px;
+    width: 470px;
+}
+* {
+    /**margin: 0;**/
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+

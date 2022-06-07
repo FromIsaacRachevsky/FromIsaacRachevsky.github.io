@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'ssaye un truc</title>
+    <link rel="stylesheet" href="short">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+ 
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"> 
+                    <a href="../index.html">My Modèle - Offres lingeries</a></li>
+                <li id="FlagsFR">
+                    <div id="languagesFR">
+                        <a href="page-inscription-FR.html" title="FR"><img src="../media/france.png" alt="FR" width="30" height="18"></a>    
+                    </div>
+                <li id="FlagsEN">
+                    <div id="languagesEN">
+                        <a href="../site en Anglais/inscriptionEN/page-inscription-EN.html" title="EN"><img src="../media/united kingdom.png" alt="EN" width="30" height="18"></a>
+                    </div>
+                </li>
+                <li id="FlagsSPA">
+                    <div id="languagesSPA">
+                        <a href="../site en Espagnol/inscriptionSPA/page-inscription-SPA.html" title="SPA"><img src="../media/spain-2906824__340.png" alt="SPA" width="30" height="18"></a>
+                    </div>
+                <li><a href="../index.html">Se déconnecter</a></li> 
+                 <div id="déconnexion" tittle="se déconnecter" class="submenu_link" style="zoom: 1;"></div>
+                <li><a href="#">Inscription</a></li>
+                <li><a href="#réserver">Se conecter</a></li>
+                <li><a href="#contact">Nous contacter</a></li>
+                <li><a href="Modèles annonces">Modèles annonces</a></li>       
+                <li><a href="Nos modèles">Nos modèles</a></li>  
+            </ul>
+        </nav>
+        <section>
+            <h1>Inscrivez vous en tant que membre</h1>
+        </section>
+    </header>
+    <form method="post" action="/users/register/" class="genform custom-form" id="register">
+        <div class="legend1">
+        <fieldset>
+            <legend>Inscrivez-vous maintenant !</legend>
+            <div class="err"></div>
+            <div class="msg"></div>
+            <div class="frmline">
+                <label for="user">un nom d'utilisateur:</label>
+                <input type="text" name="data[user]" value="" placeholder="Nom d'utilisateur">
+                <div class="err_msg">
+                    <span>Vous n'avez pas rempli "nom d'utilisateur"</span>
+                </div>
+                <br>
+            </div>
+            <div class="frmline">
+                <label for="email">Votre adresse e-mail:</label>
+                <input type="text" name="data[email]" id="email" value="" placeholder="Votre e-mail">
+                <div class="err_msg">
+                    <span>Vous n'avez pas rempli votre adresse e-mail</span>
+                </div>
+                <br>
+            </div>
+            <div class="frmline">
+                <label for="password">Choisissez le mot de passe:</label>
+                <input type="password" name="data[passord]" id="password" value="" placeholder="Mot de passe">
+                <div class="err_msg">
+                    <span>Vous n'avez pas chosi un mot de passe</span>
+                </div>
+                <br>
+            </div>
+            <div class="frmline">
+                <label for="repassword">Répéter mot de passe</label>
+                <input type="password" name="data[repassword]" id="repassword" value="" placeholder="Répéter mot de passe">
+                <div class="err_msg">
+                    <span>Vous n'avez pas repris le mot de passe</span>
+                </div>
+                <br>
+            </div>
+            <div class="frmline">
+                <label for="accept" id="Termes-Conditions">
+                    En m'inscrivant, j'accepte les 
+                    <a href="" class="tos-link">Termes et Conditions:</a>
+                </label>
+                
+                <input type="checkbox" name="data[accept]" id="accept" value="1" class="customized accept-tos mcf-checkbox">
+                
+                <div class="err_msg"></div>
+                <br>
+            </div>
+            <p class="attention">
+            Attention si vous avez déja un compte, il ne sera pas enregistré. Vous serez automatiquement suspendu.
+            </p>
+            <input type="hidden" name="data[user_type]" value="member">
+            <p align="center"><input type="submit" value="S'inscrire !" class="base-button" style="width: 25%"></p>
+            
+        </fieldset>
+        </div>
+    </form>
+    <footer>
+        <h2 id="contact">Contactez-nous</h2>
+             <form id="contact-inp">
+                 <input placeholder="Nom">
+                 <input placeholder="E-mail">
+                 <textarea placeholder="Votre message ici..."></textarea>
+                 <button>Envoyer</button>
+             </form>
+             <div id="deuxièmeTrait"></div>
+             <div id="copyrightEtIcons">
+                 <div id="copyright">
+                     <span>© fromIsaacRachevsky(); 2022</span>
+                 </div>
+                 <div id="icons">
+                     <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+                     <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+                     <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+ 
+                 </div>
+             </div>
+     </footer>
+     <script src="index.js"></script>
+</body>
+
+<popu id="">
+    Attention: Le site internet MY Modèle est reserve e un public majeur
+Avertissement
+Cette partie du site est un service réservé à un public majeur et averti. Ce service peut contenir des textes et des photos qui peuvent être choquants pour certaines sensibilités.
+
+Je certifie sur l'honneur :
+- être majeur selon la loi en vigueur dans mon pays de résidence,
+- être informé du caractère pour adultes de cette partie du site,
+- que mon pays de résidence m'autorise à consulter ce service,
+- consulter ce service à titre personnel sans impliquer de quelque manière que ce soit une société privée ou un organisme public.
+
+Je m'engage sur l'honneur à :
+- ne pas faire état de l'existence de ce service et à ne pas en diffuser le contenu à des mineurs,
+- utiliser tous les moyens permettant d'empécher l'accès de ce service à tout mineur,
+- ne pas poursuivre la société éditrice de toute action judiciaire,
+- assumer ma responsabilité si un mineur accède à ce service à cause de ma négligence,
+- assumer ma responsabilité si une ou plusieurs de mes présentes déclarations sont inexactes.
+
+Censure et respect des lois internationales
+Toute annonce ne respectant pas les législations internationales sera immédiatement censurée par nos modérateurs. Les services sexuels tarifés sont strictement interdits. Le site SexeModel ne peut en aucun cas être tenu pour responsable du contenu des annonces. En cas de plainte, l'éditeur de SexeModel se réserve le droit de transmettre vos coordonnées numériques et autres éventuelles informations aux autorités compétentes. Pour plus d'informations, nous vous invitons à consulter nos conditions générales d'utilisation.
+
+Protection des mineurs et filtre parental
+Aux parents soucieux que leur enfant soit facilement confronté à du contenu pornographique sur Internet, nous vous recommandons l'installation de filtres. Faites une recherche sur les termes « contrôle parental » à partir de votre moteur de recherche habituel.
+Je certifie être d'accord avec les règles qui précèdent et je signe électroniquement mon accord :
+ANNULEROK
+</popu>
+<p></p>
+
+</html>
